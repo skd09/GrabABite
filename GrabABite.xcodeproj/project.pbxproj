@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34308816F7543610771696A3 /* Pods_GrabABite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EF953E7ADE6D986195C41CB /* Pods_GrabABite.framework */; };
+		9F04C42022494F7700056439 /* CategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F04C41E22494F7700056439 /* CategoryTableViewCell.swift */; };
+		9F04C42122494F7700056439 /* CategoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F04C41F22494F7700056439 /* CategoryTableViewCell.xib */; };
+		9F0AEAF22245619C00584EE2 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0AEAF02245619C00584EE2 /* MenuTableViewCell.swift */; };
+		9F0AEAF32245619C00584EE2 /* MenuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F0AEAF12245619C00584EE2 /* MenuTableViewCell.xib */; };
+		9F0E2A1622432E0100EC588B /* OrderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0E2A1422432E0000EC588B /* OrderTableViewCell.swift */; };
+		9F0E2A1722432E0100EC588B /* OrderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F0E2A1522432E0100EC588B /* OrderTableViewCell.xib */; };
+		9F3ABD6E225080560008D523 /* BaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3ABD6D225080560008D523 /* BaseResponse.swift */; };
+		9F3ABD70225080AC0008D523 /* BaseRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3ABD6F225080AC0008D523 /* BaseRequest.swift */; };
+		9F3ABD72225080FE0008D523 /* BaseDO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3ABD71225080FE0008D523 /* BaseDO.swift */; };
+		9F3ABD74225081890008D523 /* BaseBO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3ABD73225081890008D523 /* BaseBO.swift */; };
+		9F3ABD76225081CE0008D523 /* DOBOConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3ABD75225081CE0008D523 /* DOBOConstants.swift */; };
+		9F3ABD782250FFD80008D523 /* GetCollegeListRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3ABD772250FFD70008D523 /* GetCollegeListRequest.swift */; };
+		9F3ABD7A225100870008D523 /* GetCollegeListBO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3ABD79225100870008D523 /* GetCollegeListBO.swift */; };
+		9F3ABD7C225103BE0008D523 /* GetCollegeListResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3ABD7B225103BE0008D523 /* GetCollegeListResponse.swift */; };
+		9F3ABD7E225104450008D523 /* GetCollegeListDO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3ABD7D225104450008D523 /* GetCollegeListDO.swift */; };
+		9F3ABD80225112990008D523 /* ServerErrorBO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3ABD7F225112990008D523 /* ServerErrorBO.swift */; };
+		9F9B15FE2234557E00F12094 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9B15FD2234557E00F12094 /* AppConstants.swift */; };
 		9F9B866622166C9C009A72B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9B866522166C9C009A72B2 /* AppDelegate.swift */; };
 		9F9B866822166C9C009A72B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9B866722166C9C009A72B2 /* ViewController.swift */; };
 		9F9B866B22166C9D009A72B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F9B866922166C9D009A72B2 /* Main.storyboard */; };
@@ -15,6 +33,24 @@
 		9F9B867322166CCD009A72B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F9B867122166CCD009A72B2 /* LaunchScreen.storyboard */; };
 		9F9B867E22166CCD009A72B2 /* GrabABiteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9B867D22166CCD009A72B2 /* GrabABiteTests.swift */; };
 		9F9B868922166CCD009A72B2 /* GrabABiteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9B868822166CCD009A72B2 /* GrabABiteUITests.swift */; };
+		9FC4F7A42234926F004BAF08 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC4F7A32234926F004BAF08 /* BaseViewController.swift */; };
+		9FC4F7A622349D9D004BAF08 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC4F7A522349D9D004BAF08 /* LoginViewController.swift */; };
+		9FC4F7A82234A1E8004BAF08 /* RestaurantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC4F7A72234A1E8004BAF08 /* RestaurantViewController.swift */; };
+		9FC4F7AA2234A1FC004BAF08 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC4F7A92234A1FC004BAF08 /* MenuViewController.swift */; };
+		9FC4F7AC2234A218004BAF08 /* PersonalDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC4F7AB2234A218004BAF08 /* PersonalDetailsViewController.swift */; };
+		9FC4F7AE2234A22A004BAF08 /* CardDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC4F7AD2234A22A004BAF08 /* CardDetailsViewController.swift */; };
+		9FC4F7B02234A243004BAF08 /* OrderDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC4F7AF2234A243004BAF08 /* OrderDetailsViewController.swift */; };
+		9FC4F7B22234A253004BAF08 /* SuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC4F7B12234A253004BAF08 /* SuccessViewController.swift */; };
+		9FC4F7B72234A4CA004BAF08 /* BaseModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC4F7B62234A4CA004BAF08 /* BaseModelView.swift */; };
+		9FC4F7B92234A96C004BAF08 /* CustomPickerModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC4F7B82234A96C004BAF08 /* CustomPickerModelView.swift */; };
+		9FC4F7BB2234AFB7004BAF08 /* UIUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC4F7BA2234AFB7004BAF08 /* UIUtil.swift */; };
+		9FEAE96B2235DBE4009BBF72 /* FloatingPlaceHolderTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FEAE96A2235DBE4009BBF72 /* FloatingPlaceHolderTextField.swift */; };
+		9FEAE96D2235DF09009BBF72 /* CustomSalutationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FEAE96C2235DF09009BBF72 /* CustomSalutationView.swift */; };
+		9FEAE96F22378171009BBF72 /* FailureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FEAE96E22378171009BBF72 /* FailureViewController.swift */; };
+		9FEAE97722386A92009BBF72 /* RestaurantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FEAE97522386A92009BBF72 /* RestaurantTableViewCell.swift */; };
+		9FEAE97822386A92009BBF72 /* RestaurantTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FEAE97622386A92009BBF72 /* RestaurantTableViewCell.xib */; };
+		F21A67461A2794FD03DF697E /* Pods_GrabABiteUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60D00DCD0F8E1D437FC6C282 /* Pods_GrabABiteUITests.framework */; };
+		F5628054D4C9C6CD3ACBA09E /* Pods_GrabABiteTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C322A1D0D088DEA637A5C03B /* Pods_GrabABiteTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +71,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1EF953E7ADE6D986195C41CB /* Pods_GrabABite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GrabABite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B6EB5629EAAAE086FF3D035 /* Pods-GrabABiteUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrabABiteUITests.debug.xcconfig"; path = "Target Support Files/Pods-GrabABiteUITests/Pods-GrabABiteUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2CF581C4609966B63C30EDD7 /* Pods-GrabABiteTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrabABiteTests.release.xcconfig"; path = "Target Support Files/Pods-GrabABiteTests/Pods-GrabABiteTests.release.xcconfig"; sourceTree = "<group>"; };
+		60D00DCD0F8E1D437FC6C282 /* Pods_GrabABiteUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GrabABiteUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7007A4E9A3F54A0E9A5A8C13 /* Pods-GrabABite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrabABite.release.xcconfig"; path = "Target Support Files/Pods-GrabABite/Pods-GrabABite.release.xcconfig"; sourceTree = "<group>"; };
+		831DB63F369BA528F070BDBD /* Pods-GrabABite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrabABite.debug.xcconfig"; path = "Target Support Files/Pods-GrabABite/Pods-GrabABite.debug.xcconfig"; sourceTree = "<group>"; };
+		951565FFE3AB049BBDD71F69 /* Pods-GrabABiteUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrabABiteUITests.release.xcconfig"; path = "Target Support Files/Pods-GrabABiteUITests/Pods-GrabABiteUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9F04C41E22494F7700056439 /* CategoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewCell.swift; sourceTree = "<group>"; };
+		9F04C41F22494F7700056439 /* CategoryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryTableViewCell.xib; sourceTree = "<group>"; };
+		9F0AEAF02245619C00584EE2 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		9F0AEAF12245619C00584EE2 /* MenuTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuTableViewCell.xib; sourceTree = "<group>"; };
+		9F0E2A1422432E0000EC588B /* OrderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTableViewCell.swift; sourceTree = "<group>"; };
+		9F0E2A1522432E0100EC588B /* OrderTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OrderTableViewCell.xib; sourceTree = "<group>"; };
+		9F3ABD6D225080560008D523 /* BaseResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseResponse.swift; sourceTree = "<group>"; };
+		9F3ABD6F225080AC0008D523 /* BaseRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRequest.swift; sourceTree = "<group>"; };
+		9F3ABD71225080FE0008D523 /* BaseDO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseDO.swift; sourceTree = "<group>"; };
+		9F3ABD73225081890008D523 /* BaseBO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseBO.swift; sourceTree = "<group>"; };
+		9F3ABD75225081CE0008D523 /* DOBOConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DOBOConstants.swift; sourceTree = "<group>"; };
+		9F3ABD772250FFD70008D523 /* GetCollegeListRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCollegeListRequest.swift; sourceTree = "<group>"; };
+		9F3ABD79225100870008D523 /* GetCollegeListBO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCollegeListBO.swift; sourceTree = "<group>"; };
+		9F3ABD7B225103BE0008D523 /* GetCollegeListResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCollegeListResponse.swift; sourceTree = "<group>"; };
+		9F3ABD7D225104450008D523 /* GetCollegeListDO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCollegeListDO.swift; sourceTree = "<group>"; };
+		9F3ABD7F225112990008D523 /* ServerErrorBO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerErrorBO.swift; sourceTree = "<group>"; };
+		9F9B15FD2234557E00F12094 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
 		9F9B866222166C9C009A72B2 /* GrabABite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrabABite.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F9B866522166C9C009A72B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9F9B866722166C9C009A72B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +109,24 @@
 		9F9B868422166CCD009A72B2 /* GrabABiteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrabABiteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F9B868822166CCD009A72B2 /* GrabABiteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrabABiteUITests.swift; sourceTree = "<group>"; };
 		9F9B868A22166CCD009A72B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FC4F7A32234926F004BAF08 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; wrapsLines = 0; };
+		9FC4F7A522349D9D004BAF08 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9FC4F7A72234A1E8004BAF08 /* RestaurantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantViewController.swift; sourceTree = "<group>"; };
+		9FC4F7A92234A1FC004BAF08 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		9FC4F7AB2234A218004BAF08 /* PersonalDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalDetailsViewController.swift; sourceTree = "<group>"; };
+		9FC4F7AD2234A22A004BAF08 /* CardDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetailsViewController.swift; sourceTree = "<group>"; };
+		9FC4F7AF2234A243004BAF08 /* OrderDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailsViewController.swift; sourceTree = "<group>"; };
+		9FC4F7B12234A253004BAF08 /* SuccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessViewController.swift; sourceTree = "<group>"; };
+		9FC4F7B62234A4CA004BAF08 /* BaseModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModelView.swift; sourceTree = "<group>"; };
+		9FC4F7B82234A96C004BAF08 /* CustomPickerModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPickerModelView.swift; sourceTree = "<group>"; };
+		9FC4F7BA2234AFB7004BAF08 /* UIUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIUtil.swift; sourceTree = "<group>"; };
+		9FEAE96A2235DBE4009BBF72 /* FloatingPlaceHolderTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingPlaceHolderTextField.swift; sourceTree = "<group>"; };
+		9FEAE96C2235DF09009BBF72 /* CustomSalutationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSalutationView.swift; sourceTree = "<group>"; };
+		9FEAE96E22378171009BBF72 /* FailureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FailureViewController.swift; sourceTree = "<group>"; };
+		9FEAE97522386A92009BBF72 /* RestaurantTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewCell.swift; sourceTree = "<group>"; };
+		9FEAE97622386A92009BBF72 /* RestaurantTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RestaurantTableViewCell.xib; sourceTree = "<group>"; };
+		C322A1D0D088DEA637A5C03B /* Pods_GrabABiteTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GrabABiteTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBDA485E266FCE301808E334 /* Pods-GrabABiteTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrabABiteTests.debug.xcconfig"; path = "Target Support Files/Pods-GrabABiteTests/Pods-GrabABiteTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +134,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34308816F7543610771696A3 /* Pods_GrabABite.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +142,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5628054D4C9C6CD3ACBA09E /* Pods_GrabABiteTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +150,154 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F21A67461A2794FD03DF697E /* Pods_GrabABiteUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		97482E91FEA903207E9F6EA6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1EF953E7ADE6D986195C41CB /* Pods_GrabABite.framework */,
+				C322A1D0D088DEA637A5C03B /* Pods_GrabABiteTests.framework */,
+				60D00DCD0F8E1D437FC6C282 /* Pods_GrabABiteUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F04C41D22494F2700056439 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				9F04C41E22494F7700056439 /* CategoryTableViewCell.swift */,
+				9F04C41F22494F7700056439 /* CategoryTableViewCell.xib */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		9F0AEAEF2245611500584EE2 /* MenuTableCellView */ = {
+			isa = PBXGroup;
+			children = (
+				9F0AEAF02245619C00584EE2 /* MenuTableViewCell.swift */,
+				9F0AEAF12245619C00584EE2 /* MenuTableViewCell.xib */,
+			);
+			path = MenuTableCellView;
+			sourceTree = "<group>";
+		};
+		9F0E2A1322432DA600EC588B /* OrderTableCellView */ = {
+			isa = PBXGroup;
+			children = (
+				9F0E2A1422432E0000EC588B /* OrderTableViewCell.swift */,
+				9F0E2A1522432E0100EC588B /* OrderTableViewCell.xib */,
+			);
+			path = OrderTableCellView;
+			sourceTree = "<group>";
+		};
+		9F9B15EE2234528700F12094 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				9FC4F7BA2234AFB7004BAF08 /* UIUtil.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		9F9B15F0223452BF00F12094 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				9F9B15FD2234557E00F12094 /* AppConstants.swift */,
+				9F3ABD75225081CE0008D523 /* DOBOConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		9F9B15F1223452C800F12094 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				9F9B15F4223452F100F12094 /* ViewControllers */,
+				9F9B15F3223452E800F12094 /* Views */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		9F9B15F2223452D000F12094 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				9F9B15FC2234542D00F12094 /* ResponseObjects */,
+				9F9B15FA223453F600F12094 /* RequestObjects */,
+				9F9B15F72234531C00F12094 /* DataObjects */,
+				9F9B15F62234530F00F12094 /* BusinessObjects */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		9F9B15F3223452E800F12094 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9F04C41D22494F2700056439 /* Category */,
+				9F0AEAEF2245611500584EE2 /* MenuTableCellView */,
+				9F0E2A1322432DA600EC588B /* OrderTableCellView */,
+				9FEAE97022386808009BBF72 /* RestaurantTableCellView */,
+				9FC4F7B52234A4AB004BAF08 /* PickerView */,
+				9FEAE96A2235DBE4009BBF72 /* FloatingPlaceHolderTextField.swift */,
+				9FEAE96C2235DF09009BBF72 /* CustomSalutationView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9F9B15F4223452F100F12094 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9FC4F7A32234926F004BAF08 /* BaseViewController.swift */,
+				9FC4F7A522349D9D004BAF08 /* LoginViewController.swift */,
+				9FC4F7A72234A1E8004BAF08 /* RestaurantViewController.swift */,
+				9FC4F7A92234A1FC004BAF08 /* MenuViewController.swift */,
+				9FC4F7AB2234A218004BAF08 /* PersonalDetailsViewController.swift */,
+				9FC4F7AD2234A22A004BAF08 /* CardDetailsViewController.swift */,
+				9FC4F7AF2234A243004BAF08 /* OrderDetailsViewController.swift */,
+				9FC4F7B12234A253004BAF08 /* SuccessViewController.swift */,
+				9FEAE96E22378171009BBF72 /* FailureViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		9F9B15F62234530F00F12094 /* BusinessObjects */ = {
+			isa = PBXGroup;
+			children = (
+				9F3ABD73225081890008D523 /* BaseBO.swift */,
+				9F3ABD79225100870008D523 /* GetCollegeListBO.swift */,
+				9F3ABD7F225112990008D523 /* ServerErrorBO.swift */,
+			);
+			path = BusinessObjects;
+			sourceTree = "<group>";
+		};
+		9F9B15F72234531C00F12094 /* DataObjects */ = {
+			isa = PBXGroup;
+			children = (
+				9F3ABD71225080FE0008D523 /* BaseDO.swift */,
+				9F3ABD7D225104450008D523 /* GetCollegeListDO.swift */,
+			);
+			path = DataObjects;
+			sourceTree = "<group>";
+		};
+		9F9B15FA223453F600F12094 /* RequestObjects */ = {
+			isa = PBXGroup;
+			children = (
+				9F3ABD6F225080AC0008D523 /* BaseRequest.swift */,
+				9F3ABD772250FFD70008D523 /* GetCollegeListRequest.swift */,
+			);
+			path = RequestObjects;
+			sourceTree = "<group>";
+		};
+		9F9B15FC2234542D00F12094 /* ResponseObjects */ = {
+			isa = PBXGroup;
+			children = (
+				9F3ABD6D225080560008D523 /* BaseResponse.swift */,
+				9F3ABD7B225103BE0008D523 /* GetCollegeListResponse.swift */,
+			);
+			path = ResponseObjects;
+			sourceTree = "<group>";
+		};
 		9F9B865922166C9B009A72B2 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +305,8 @@
 				9F9B867C22166CCD009A72B2 /* GrabABiteTests */,
 				9F9B868722166CCD009A72B2 /* GrabABiteUITests */,
 				9F9B866322166C9C009A72B2 /* Products */,
+				B79D4075D166EF8E62274967 /* Pods */,
+				97482E91FEA903207E9F6EA6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +323,10 @@
 		9F9B866422166C9C009A72B2 /* GrabABite */ = {
 			isa = PBXGroup;
 			children = (
+				9F9B15F2223452D000F12094 /* Network */,
+				9F9B15F1223452C800F12094 /* UI */,
+				9F9B15F0223452BF00F12094 /* Constants */,
+				9F9B15EE2234528700F12094 /* Utils */,
 				9F9B866522166C9C009A72B2 /* AppDelegate.swift */,
 				9F9B866722166C9C009A72B2 /* ViewController.swift */,
 				9F9B866922166C9D009A72B2 /* Main.storyboard */,
@@ -128,6 +356,37 @@
 			path = GrabABiteUITests;
 			sourceTree = "<group>";
 		};
+		9FC4F7B52234A4AB004BAF08 /* PickerView */ = {
+			isa = PBXGroup;
+			children = (
+				9FC4F7B62234A4CA004BAF08 /* BaseModelView.swift */,
+				9FC4F7B82234A96C004BAF08 /* CustomPickerModelView.swift */,
+			);
+			path = PickerView;
+			sourceTree = "<group>";
+		};
+		9FEAE97022386808009BBF72 /* RestaurantTableCellView */ = {
+			isa = PBXGroup;
+			children = (
+				9FEAE97522386A92009BBF72 /* RestaurantTableViewCell.swift */,
+				9FEAE97622386A92009BBF72 /* RestaurantTableViewCell.xib */,
+			);
+			path = RestaurantTableCellView;
+			sourceTree = "<group>";
+		};
+		B79D4075D166EF8E62274967 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				831DB63F369BA528F070BDBD /* Pods-GrabABite.debug.xcconfig */,
+				7007A4E9A3F54A0E9A5A8C13 /* Pods-GrabABite.release.xcconfig */,
+				FBDA485E266FCE301808E334 /* Pods-GrabABiteTests.debug.xcconfig */,
+				2CF581C4609966B63C30EDD7 /* Pods-GrabABiteTests.release.xcconfig */,
+				2B6EB5629EAAAE086FF3D035 /* Pods-GrabABiteUITests.debug.xcconfig */,
+				951565FFE3AB049BBDD71F69 /* Pods-GrabABiteUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +394,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9F9B868D22166CCD009A72B2 /* Build configuration list for PBXNativeTarget "GrabABite" */;
 			buildPhases = (
+				ECEFFD7D4520BF6B69DDDCA3 /* [CP] Check Pods Manifest.lock */,
 				9F9B865E22166C9C009A72B2 /* Sources */,
 				9F9B865F22166C9C009A72B2 /* Frameworks */,
 				9F9B866022166C9C009A72B2 /* Resources */,
+				693812ED8E32F0C8BFB22B13 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +413,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9F9B869022166CCD009A72B2 /* Build configuration list for PBXNativeTarget "GrabABiteTests" */;
 			buildPhases = (
+				71EC18E3CC0DD6175C9950B0 /* [CP] Check Pods Manifest.lock */,
 				9F9B867522166CCD009A72B2 /* Sources */,
 				9F9B867622166CCD009A72B2 /* Frameworks */,
 				9F9B867722166CCD009A72B2 /* Resources */,
@@ -170,6 +432,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9F9B869322166CCD009A72B2 /* Build configuration list for PBXNativeTarget "GrabABiteUITests" */;
 			buildPhases = (
+				1288774713AF4EFCF5A71DAE /* [CP] Check Pods Manifest.lock */,
 				9F9B868022166CCD009A72B2 /* Sources */,
 				9F9B868122166CCD009A72B2 /* Frameworks */,
 				9F9B868222166CCD009A72B2 /* Resources */,
@@ -196,6 +459,7 @@
 				TargetAttributes = {
 					9F9B866122166C9C009A72B2 = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1010;
 					};
 					9F9B867822166CCD009A72B2 = {
 						CreatedOnToolsVersion = 10.0;
@@ -232,6 +496,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F0AEAF32245619C00584EE2 /* MenuTableViewCell.xib in Resources */,
+				9F04C42122494F7700056439 /* CategoryTableViewCell.xib in Resources */,
+				9FEAE97822386A92009BBF72 /* RestaurantTableViewCell.xib in Resources */,
+				9F0E2A1722432E0100EC588B /* OrderTableViewCell.xib in Resources */,
 				9F9B867322166CCD009A72B2 /* LaunchScreen.storyboard in Resources */,
 				9F9B867022166CCD009A72B2 /* Assets.xcassets in Resources */,
 				9F9B866B22166C9D009A72B2 /* Main.storyboard in Resources */,
@@ -254,14 +522,140 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1288774713AF4EFCF5A71DAE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GrabABiteUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		693812ED8E32F0C8BFB22B13 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GrabABite/Pods-GrabABite-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftDate/SwiftDate.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftDate.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GrabABite/Pods-GrabABite-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71EC18E3CC0DD6175C9950B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GrabABiteTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECEFFD7D4520BF6B69DDDCA3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GrabABite-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9F9B865E22166C9C009A72B2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F3ABD80225112990008D523 /* ServerErrorBO.swift in Sources */,
+				9FC4F7A622349D9D004BAF08 /* LoginViewController.swift in Sources */,
+				9FC4F7AE2234A22A004BAF08 /* CardDetailsViewController.swift in Sources */,
+				9F0AEAF22245619C00584EE2 /* MenuTableViewCell.swift in Sources */,
+				9FEAE96D2235DF09009BBF72 /* CustomSalutationView.swift in Sources */,
+				9F3ABD72225080FE0008D523 /* BaseDO.swift in Sources */,
+				9FEAE96F22378171009BBF72 /* FailureViewController.swift in Sources */,
+				9FC4F7BB2234AFB7004BAF08 /* UIUtil.swift in Sources */,
+				9FEAE97722386A92009BBF72 /* RestaurantTableViewCell.swift in Sources */,
+				9F3ABD76225081CE0008D523 /* DOBOConstants.swift in Sources */,
+				9F0E2A1622432E0100EC588B /* OrderTableViewCell.swift in Sources */,
+				9F3ABD782250FFD80008D523 /* GetCollegeListRequest.swift in Sources */,
+				9F3ABD7C225103BE0008D523 /* GetCollegeListResponse.swift in Sources */,
+				9F3ABD70225080AC0008D523 /* BaseRequest.swift in Sources */,
+				9FC4F7A42234926F004BAF08 /* BaseViewController.swift in Sources */,
+				9FC4F7A82234A1E8004BAF08 /* RestaurantViewController.swift in Sources */,
 				9F9B866822166C9C009A72B2 /* ViewController.swift in Sources */,
+				9FEAE96B2235DBE4009BBF72 /* FloatingPlaceHolderTextField.swift in Sources */,
+				9FC4F7B92234A96C004BAF08 /* CustomPickerModelView.swift in Sources */,
+				9F3ABD7E225104450008D523 /* GetCollegeListDO.swift in Sources */,
+				9FC4F7AC2234A218004BAF08 /* PersonalDetailsViewController.swift in Sources */,
+				9FC4F7B02234A243004BAF08 /* OrderDetailsViewController.swift in Sources */,
 				9F9B866622166C9C009A72B2 /* AppDelegate.swift in Sources */,
 				9F9B866E22166C9D009A72B2 /* GrabABite.xcdatamodeld in Sources */,
+				9F04C42022494F7700056439 /* CategoryTableViewCell.swift in Sources */,
+				9F3ABD7A225100870008D523 /* GetCollegeListBO.swift in Sources */,
+				9F9B15FE2234557E00F12094 /* AppConstants.swift in Sources */,
+				9F3ABD74225081890008D523 /* BaseBO.swift in Sources */,
+				9FC4F7B22234A253004BAF08 /* SuccessViewController.swift in Sources */,
+				9FC4F7AA2234A1FC004BAF08 /* MenuViewController.swift in Sources */,
+				9FC4F7B72234A4CA004BAF08 /* BaseModelView.swift in Sources */,
+				9F3ABD6E225080560008D523 /* BaseResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,17 +828,24 @@
 		};
 		9F9B868E22166CCD009A72B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 831DB63F369BA528F070BDBD /* Pods-GrabABite.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = CAX4724JCG;
+				DEVELOPMENT_TEAM = H3K34LD5MZ;
 				INFOPLIST_FILE = GrabABite/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sharvari.GrabABite;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sharvari.GrabYourBite;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "GrabABite/UI/Views/RestaurantTableCellView/GrabABite-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -452,17 +853,23 @@
 		};
 		9F9B868F22166CCD009A72B2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7007A4E9A3F54A0E9A5A8C13 /* Pods-GrabABite.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = CAX4724JCG;
+				DEVELOPMENT_TEAM = H3K34LD5MZ;
 				INFOPLIST_FILE = GrabABite/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sharvari.GrabABite;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sharvari.GrabYourBite;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "GrabABite/UI/Views/RestaurantTableCellView/GrabABite-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -470,6 +877,7 @@
 		};
 		9F9B869122166CCD009A72B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBDA485E266FCE301808E334 /* Pods-GrabABiteTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +899,7 @@
 		};
 		9F9B869222166CCD009A72B2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CF581C4609966B63C30EDD7 /* Pods-GrabABiteTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +921,7 @@
 		};
 		9F9B869422166CCD009A72B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B6EB5629EAAAE086FF3D035 /* Pods-GrabABiteUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +942,7 @@
 		};
 		9F9B869522166CCD009A72B2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 951565FFE3AB049BBDD71F69 /* Pods-GrabABiteUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

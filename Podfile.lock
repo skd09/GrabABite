@@ -1,0 +1,30 @@
+PODS:
+  - Alamofire (4.8.2)
+  - CryptoSwift (1.0.0)
+  - NVActivityIndicatorView (4.6.1):
+    - NVActivityIndicatorView/Presenter (= 4.6.1)
+  - NVActivityIndicatorView/Presenter (4.6.1)
+  - SwiftDate (6.0.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.5)
+  - CryptoSwift
+  - NVActivityIndicatorView
+  - SwiftDate
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - CryptoSwift
+    - NVActivityIndicatorView
+    - SwiftDate
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  CryptoSwift: d81eeaa59dc5a8d03720fe919a6fd07b51f7439f
+  NVActivityIndicatorView: 4ca19fccc84595a78957336a086d00a49be6ce61
+  SwiftDate: 2b3ef6b8fc30c22391033d1acad5622a51660016
+
+PODFILE CHECKSUM: fe820af8950bf507fe704714f19c238091980434
+
+COCOAPODS: 1.6.1

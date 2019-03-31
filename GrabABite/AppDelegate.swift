@@ -13,10 +13,33 @@ import CoreData
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    var navigationController : UINavigationController?;
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        self.window = UIWindow(frame: UIScreen.main.bounds);
+        
+        //status bar color
+        let status : UIView = UIApplication.shared.value(forKey: "statusBar") as! UIView;
+        if status.responds(to: #selector(setter: UIView.backgroundColor)){
+            status.backgroundColor = AppConstants.COLOR_1;
+        }
+//        UIApplication.shared.statusBarStyle = .lightContent;
+        
+        
+        let viewController = LoginViewController();
+        self.navigationController = UINavigationController(rootViewController: viewController);
+        self.navigationController!.navigationBar.barTintColor=AppConstants.COLOR_1;
+        self.navigationController!.navigationBar.barStyle = .black
+        self.navigationController!.navigationBar.tintColor = UIColor.white;
+        self.navigationController!.navigationBar.isTranslucent = false
+        self.navigationController!.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
+        
+        self.window?.rootViewController = self.navigationController;
+        self.window?.backgroundColor = AppConstants.COLOR_1;
+        self.window?.makeKeyAndVisible();
+        
         return true
     }
 
